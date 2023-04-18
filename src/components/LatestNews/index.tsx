@@ -5,7 +5,7 @@ const LatestNews = () => {
   return (
     <section id="latest" className="flex w-full flex-col justify-center my-20">
       <div className="flex justify-center items-center my-5">
-        <h1 className="text-3xl font-bold">Let's see Our latest news</h1>
+        <h1 className="text-3xl font-bold">{`Let's see Our latest news`}</h1>
       </div>
       <div className="flex flex-col mx-10 lg:flex-row justify-start items-start">
         <div className="flex flex-col items-start gap-4 w-full">

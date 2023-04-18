@@ -3,7 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="flex w-full flex-col justify-center gap-10 my-20 lg:mx-auto">
+    <section
+      id="about"
+      className="flex w-full flex-col justify-center gap-10 my-20 lg:mx-auto"
+    >
       <div className="flex flex-col items-center lg:items-start lg:flex-row justify-center w-full">
         <Image
           src="/img/nurse-helping-child.jpg"
@@ -17,7 +20,7 @@ const About = () => {
             <h1 className="uppercase text-lg font-bold text-gray-600">
               About me
             </h1>
-            <p className="text-3xl my-1">I'm Dr. Kierra Calzoni.</p>
+            <p className="text-3xl my-1">{`I'm Dr. Kierra Calzoni.`}</p>
             <p className="text-4xl font-bold">
               Actually, I love to care Patient.
             </p>
@@ -35,7 +38,7 @@ const About = () => {
               type="button"
               className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb]"
             >
-              Let's Talk
+              {`Let's Talk`}
             </button>
           </div>
         </div>
@@ -51,7 +54,7 @@ const About = () => {
             <h1 className="uppercase text-lg font-bold text-gray-600">
               About me
             </h1>
-            <p className="text-3xl my-1">I'm Dr. Kierra Calzoni.</p>
+            <p className="text-3xl my-1">{`I'm Dr. Kierra Calzoni.`}</p>
             <p className="text-4xl font-bold">
               Actually, I love to care Patient.
             </p>
@@ -69,7 +72,7 @@ const About = () => {
               type="button"
               className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb]"
             >
-              Let's Talk
+              {`Let's Talk`}
             </button>
           </div>
         </div>
@@ -80,7 +83,7 @@ const About = () => {
             <h1 className="uppercase text-lg font-bold text-gray-600">
               About me
             </h1>
-            <p className="text-3xl my-1">I'm Dr. Kierra Calzoni.</p>
+            <p className="text-3xl my-1">{`I'm Dr. Kierra Calzoni.`}</p>
             <p className="text-4xl font-bold">
               Actually, I love to care Patient.
             </p>
@@ -98,7 +101,7 @@ const About = () => {
               type="button"
               className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb]"
             >
-              Let's Talk
+              {`Let's Talk`}
             </button>
           </div>
         </div>
@@ -111,7 +114,9 @@ const About = () => {
         />
       </div>
       <div className="mt-10 flex justify-center items-center w-full">
-        <h1 className="text-3xl font-bold">Let's see what patient says !</h1>
+        <h1 className="text-3xl font-bold">
+          {`Let's`} see what patient says !
+        </h1>
       </div>
     </section>
   );

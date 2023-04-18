@@ -65,7 +65,7 @@ const Header = () => {
         </li>
       </ul>
       <button className="h-[50px] w-[120px] bg-[#3886fb] rounded-3xl text-white">
-        Let's Talk
+        {`Let's Talk`}
       </button>
     </header>
   );
