@@ -70,14 +70,14 @@ const About = () => {
           <div className="w-full mt-4">
             <button
               type="button"
-              className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb]"
+              className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb] hover:scale-110 transition-all duration-300 ease-in-out"
             >
               {`Let's Talk`}
             </button>
           </div>
         </div>
       </div>
-      <div className="hidden lg:flex flex-col items-center lg:flex-row justify-start lg:items-start w-full my-10 mx-10 lg:mx-0 w-full">
+      <div className="hidden lg:flex flex-col items-center lg:flex-row justify-start lg:items-start  my-10 mx-10 lg:mx-0 w-full">
         <div className="flex flex-col items-start justify-start">
           <div>
             <h1 className="uppercase text-lg font-bold text-gray-600">
@@ -99,7 +99,7 @@ const About = () => {
           <div className="w-full my-4">
             <button
               type="button"
-              className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb]"
+              className="w-2/6 h-[40px] text-white rounded-full bg-[#3886fb] hover:scale-110 transition-all duration-300 ease-in-out"
             >
               {`Let's Talk`}
             </button>

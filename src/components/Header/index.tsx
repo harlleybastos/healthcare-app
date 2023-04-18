@@ -66,39 +66,27 @@ const Header = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <a
-            onClick={handleCloseAndRedirect}
-            href="#work"
-          >
+          <a onClick={handleCloseAndRedirect} href="#work">
             Work
           </a>
         </li>
         <li>
-          <a
-            onClick={handleCloseAndRedirect}
-            href="#about"
-          >
+          <a onClick={handleCloseAndRedirect} href="#about">
             About
           </a>
         </li>
         <li>
-          <a
-            onClick={handleCloseAndRedirect}
-            href="#reviews"
-          >
+          <a onClick={handleCloseAndRedirect} href="#reviews">
             Reviews
           </a>
         </li>
         <li>
-          <a
-            onClick={handleCloseAndRedirect}
-            href="#latest"
-          >
+          <a onClick={handleCloseAndRedirect} href="#latest">
             News
           </a>
         </li>
       </ul>
-      <button className="h-[50px] w-[120px] bg-[#3886fb] rounded-3xl text-white">
+      <button className="h-[50px] w-[120px] bg-[#3886fb] rounded-3xl text-white hover:scale-110 transition-all duration-300 ease-in-out">
         {`Let's Talk`}
       </button>
     </header>

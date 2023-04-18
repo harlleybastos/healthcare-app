@@ -21,10 +21,10 @@ const Hero = () => {
           repudiandae nobis corrupti nihil blanditiis omnis.
         </p>
         <div className="flex items-center justify-between w-full">
-          <button className="h-[50px] w-[150px] bg-[#3886fb] rounded-3xl text-white shadow-md mt-5">
+          <button className="h-[50px] w-[150px] bg-[#3886fb] rounded-3xl hover:scale-110 transition-all duration-300 ease-in-out text-white shadow-md mt-5">
            {`Let's Talk`}
           </button>{" "}
-          <button className="h-[50px] w-[150px] bg-white border-2 border-[#3886fb] rounded-3xl text-[#3886fb] shadow-md mt-5">
+          <button className="h-[50px] w-[150px] hover:scale-110 transition-all duration-300 ease-in-out bg-white border-2 border-[#3886fb] rounded-3xl text-[#3886fb] shadow-md mt-5">
             View Profile
           </button>{" "}
         </div>
