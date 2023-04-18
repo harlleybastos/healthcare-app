@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +12,11 @@ const Header = () => {
       document.body.style.overflowY = "unset";
     }
   }, [isOpen]);
+
+  const handleCloseAndRedirect = useCallback(() => {
+    document.body.style.overflowY = "unset";
+    setIsOpen(false);
+  }, []);
 
   return (
     <header className="lg:max-w-[1200px] lg:mx-auto p-3 flex justify-between items-center border-b border-b-gray-400">
@@ -61,16 +66,36 @@ const Header = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="#work">Work</a>
+          <a
+            onClick={handleCloseAndRedirect}
+            href="#work"
+          >
+            Work
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a
+            onClick={handleCloseAndRedirect}
+            href="#about"
+          >
+            About
+          </a>
         </li>
         <li>
-          <a href="#reviews">Reviews</a>
+          <a
+            onClick={handleCloseAndRedirect}
+            href="#reviews"
+          >
+            Reviews
+          </a>
         </li>
         <li>
-          <a href="#latest">News</a>
+          <a
+            onClick={handleCloseAndRedirect}
+            href="#latest"
+          >
+            News
+          </a>
         </li>
       </ul>
       <button className="h-[50px] w-[120px] bg-[#3886fb] rounded-3xl text-white">
